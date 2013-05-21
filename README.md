@@ -25,17 +25,32 @@ See what this file does by typing
 ```
     > source .bashrc
 ```
+then explore its source code and helpful comments written there with
+```
+    > less .bashrc
+```
+(Press q to exit less)
 
 * `example/script.sh`
 A basic bash script that prints a line.  It's called in `example/.bashrc`, so you'll see its output everytime you `source` `.bashrc`.
 
+Modify what it does by typing
+```
+    > nano script.sh
+```
+Then see how it's changed your prompt by running
+```
+    > source .bashrc
+```
+again.
+
 
 ### pimprompts/
 
-Contains lots of cool prompts for you to hackity hack.
+Contains lots of cool prompts for you to hackity hack.  `nano` to edit, then `source` to see what's happened.
 
 * `pimprompts/.bashrc`
-Find all sorts of prompts in here.  Most are commented out.  `cd pimprompts` to change to this directory.  (or, if you are in `example/`, `cd ../pimprompts).
+Find all sorts of prompts in here.  Most are commented out.  `cd pimprompts` to change to this directory.  (or, if you are in `example/`, `cd ../pimprompts`).
 Run `nano .bashrc` and remove the comments from each line that contains a PS1 variable, then `source pimprompts/.bashrc` to see the prompt in action. 
 
 
