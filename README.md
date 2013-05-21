@@ -7,7 +7,12 @@ You'll need a terminal program for this.  Terminal on Mac/*nix, [Git Bash](http:
 
 ## Usage
 
-Basic instructions are below.  See each folder's README.md for further instruction.
+```
+git clone https://github.com/eah13/bashrc.git 
+cd bashrc
+```
+
+Basic instructions for each subfolder are below. 
 
 ### example/
 
